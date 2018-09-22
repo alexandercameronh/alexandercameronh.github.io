@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Alexander Hughes"
-  avatar           : /assets/images/profile_shot.jpg
+  avatar           : "/assets/images/profile_shot.jpeg"
   bio              : "Data Scientist at CRAVE Metrics"
   location         : "San Francisco, Calif."
   email            : "alexandercameronh@gmail.com"
