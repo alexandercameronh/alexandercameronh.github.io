@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "alexanderhughes"
+title                    : "the regularization diaries"
 title_separator          : "-"
-name                     : "Alexander Hughes"
+name                     : "alexander hughes"
 description              : "a place to host my thoughts"
 url                      : "https://alexandercameronh.github.io" ## the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
