@@ -1,4 +1,12 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 ## about me
+
+This is md version
 
 I am currently working as a data scientist at CRAVE Metrics.
 
