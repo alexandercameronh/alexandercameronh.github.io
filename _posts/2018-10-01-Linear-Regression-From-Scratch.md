@@ -31,7 +31,15 @@ This is done with **gradient descent**.
 $$ \theta_j := \theta_j - \alpha \frac{\partial}{\partial\theta_j}J(\theta_j)$$
 
 ":=" is an assignment operator, where the \[updated\] $\theta_j$ is assigned to everything on the RHS.
-
+This is done simultaneously for all $j = 0, 1, ..., n$.
 $\alpha$ is the learning rate.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+
+
 
 
