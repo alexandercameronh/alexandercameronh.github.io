@@ -2,6 +2,8 @@
 title:  "Linear Regression From Scratch"
 ---
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
 I was writing a blog post (Logistic Regression From Scratch), in which I made multiple references
  to linear regression. Understanding linear regression is somewhat beneficial when learning logsitic regression 
