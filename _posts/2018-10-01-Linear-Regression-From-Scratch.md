@@ -14,7 +14,7 @@ So, linear regression.
 
 Linear regression is a supervised learning problem begins with this:
 
-We have our input vector $X^T = (X_1, X_2, ..., X_p)$ and from this we want to predict an output $Y$.
+We have our input vector $$X^T = (X_1, X_2, ..., X_p)$$ and from this we want to predict an output $Y$.
 
 Since it is a regression problem, $Y$ is a real-valued output (e.g. *5.23* or *99000* and not *blue* or *success*). 
 
