@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Linear Regression From Scratch"
 ---
 
