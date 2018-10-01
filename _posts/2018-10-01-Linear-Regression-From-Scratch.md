@@ -1,6 +1,5 @@
 ---
 title:  "Linear Regression From Scratch"
-mathjax: true
 ---
 
 
@@ -11,7 +10,7 @@ I was writing a blog post (Logistic Regression From Scratch), in which I made mu
  
 So, linear regression.
 
-Linear regression is a supervised learning problem begins with this:
+Linear regression is a supervised learning problem and begins with this:
 
 We have our input vector $$X^T = (X_1, X_2, ..., X_p)$$ and from this we want to predict an output $Y$.
 
