@@ -17,7 +17,9 @@ Sigmoid function: $g(x) = \frac{1}{1+e^{-x}}$, with the curve:
 ![../assets/images/sigmoid.png](../assets/images/sigmoid.png)
 
 Technically, our hypothesis equation should then be:
+
     $$h_\theta(x) = g(\theta^Tx) = \frac{1}{1+e^{-\theta^TX}}$$
+    
     $$\text{where } g(z) = \frac{1}{1+e^{-x}}$$  
     
 Now that we have our logsitic regression function, we need to learn the parameters $\theta$.
@@ -25,6 +27,7 @@ Now that we have our logsitic regression function, we need to learn the paramete
 This is done through maximum likelihood. The motive behind maximum likelihood is that we should choose $\theta$ to make the data as highly probable as possible. 
 
 $$ L(\theta) = \prod_{i=1}^m p(y^{(i)} | x^{(i)}; \theta)$$
+
 $$ L(\theta) = \prod_{i=1}^m (h_\theta(x^{(i)}))^{y^{(i)}}(1-h_\theta(x^{(i)}))^{(1-y^{(i)})} $$
 
 We need to **maximize** $L(\theta)$, which is difficult. Instead, we maximize any strictly increasing function of $L(\theta)$, the **log likelihood**.
@@ -38,6 +41,7 @@ Our update will be as follows (the plus sign is correct -- this is gradient asce
 $$ \theta := \theta + \alpha \nabla_\theta \ell(\theta) $$
 
 $$ \text{where } \frac{\partial}{\partial \theta_j}\ell(\theta) = (y-h_\theta(x))x_j $$ 
+
 $$ \text{[derived in CS229 notes]} $$
 
 So, finally:
@@ -80,3 +84,5 @@ def logistic_regression(features, target, iterations, alpha, fit_intercept=True,
         
     return weights
 ```
+
+TO DO: Update this post with some data and results.
