@@ -18,9 +18,9 @@ Sigmoid function: $g(x) = \frac{1}{1+e^{-x}}$, with the curve:
 
 Technically, our hypothesis equation should then be:
 
-    $$h_\theta(x) = g(\theta^Tx) = \frac{1}{1+e^{-\theta^TX}}$$
-    
-    $$\text{where } g(z) = \frac{1}{1+e^{-x}}$$  
+$$h_\theta(x) = g(\theta^Tx) = \frac{1}{1+e^{-\theta^TX}}$$
+
+$$\text{where } g(z) = \frac{1}{1+e^{-x}}$$  
     
 Now that we have our logsitic regression function, we need to learn the parameters $\theta$.
 
