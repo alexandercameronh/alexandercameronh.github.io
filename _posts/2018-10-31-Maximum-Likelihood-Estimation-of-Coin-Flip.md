@@ -18,5 +18,14 @@ But let's prove that. Let's prove $\hat{p} = \frac{\sum x_i}{n}$
 We begin with our probability mass function: $$f(x;p) = p^x(1-p)^{(1-x)}$$
 
 All of our observations ($x_1, x_2, ..., x_n$) are independent. So the joint probability mass function is:
-$$f(x_1, ..., x_n;p) = \prod_i f(x_i, p) = p^{\sum x_i}(1-p)^{(1-\sum x_I)}$$
+$$f(x_1, ..., x_n;p) = \prod_i f(x_i, p) = p^{\sum x_i}(1-p)^{(n-\sum x_i)}$$
 
+Interpreting this as a function of the parameter ($p$), given the observations,
+we get the likelihood function:
+$$\mathcal{L}(p) = p^{\sum x_i}(1-p)^{(n-\sum x_i)}$$
+
+We want to maximize this function. We want to find $p$ such that we maximize the likelihood of seeing the given observations.
+
+[Finding a maximum](http://clas.sa.ucsb.edu/staff/lee/Max%20and%20Min's.htm) of a function typically involves finding the derivative and setting it to zero, yes?
+
+Taking the derivative of $\mathcal{L}$ with respect to $p$ is not trivial.
