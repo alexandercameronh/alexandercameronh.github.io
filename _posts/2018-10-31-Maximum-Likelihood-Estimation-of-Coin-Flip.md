@@ -38,7 +38,7 @@ $$\frac{\partial ln(\mathcal{L}(p))}{\partial p} = \frac{\sum x_i}{p} + \frac{(n
 
 $$ p(1-p)*[\frac{\sum x_i}{p} + \frac{(n-\sum x_i)}{(1-p)}] = (\sum x_i)(1-p) - (n-\sum x_i)p = 0 $$
 
-$$ \sum x_i \cancel{- p \sum x_i} - np \cancel{+ p \sum x_i} = 0 $$
+$$ \sum x_i - p \sum x_i - np + p \sum x_i = 0 $$
 
 Leaves us with:
 
