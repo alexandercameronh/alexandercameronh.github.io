@@ -33,4 +33,15 @@ To make things easier, we take the derivative of the natural log of $\mathcal{L}
 value of $p$ that maximizes $ln(\mathcal{L}(p))$ also maximizes $\mathcal{L}(p)$.
 
 $$ln(\mathcal{L}(p)) = \sum x_i ln(p) + (n-\sum x_i)ln(1-p)$$
-$$\frac{\partialln(\mathcal{L}(p))}{\partial p} = $$
+
+$$\frac{\partial ln(\mathcal{L}(p))}{\partial p} = \frac{\sum x_i}{p} + \frac{(n-\sum x_i)}{(1-p)} = 0$$
+
+$$ p(1-p)*[\frac{\sum x_i}{p} + \frac{(n-\sum x_i)}{(1-p)}] = (\sum x_i)(1-p) - (n-\sum x_i)p = 0 $$
+
+$$ \sum x_i \cancel{- p \sum x_i} - np \cancel{+ p \sum x_i} = 0 $$
+
+Leaves us with:
+
+$$\hat{p} = \frac{\sum_{i=1}^n x_i}{n}$$
+
+d:)
