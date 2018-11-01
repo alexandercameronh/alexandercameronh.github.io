@@ -28,4 +28,9 @@ We want to maximize this function. We want to find $p$ such that we maximize the
 
 [Finding a maximum](http://clas.sa.ucsb.edu/staff/lee/Max%20and%20Min's.htm) of a function typically involves finding the derivative and setting it to zero, yes?
 
-Taking the derivative of $\mathcal{L}$ with respect to $p$ is not trivial.
+Taking the derivative of $\mathcal{L}$ with respect to $p$ is not straightforward.
+To make things easier, we take the derivative of the natural log of $\mathcal{L}$. This is a common trick -- the natural log function is a monotonically increasing function so the
+value of $p$ that maximizes $ln(\mathcal{L}(p))$ also maximizes $\mathcal{L}(p)$.
+
+$$ln(\mathcal{L}(p)) = \sum x_i ln(p) + (n-\sum x_i)ln(1-p)$$
+$$\frac{\partialln(\mathcal{L}(p))}{\partial p} = $$
