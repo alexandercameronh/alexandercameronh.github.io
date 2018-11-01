@@ -11,11 +11,12 @@ Where we have:
 - probability of failure, *(1-p)*
 - number of trials (coin flips), *n*
 
-So we have 100 coin flips with results $x_1, x_2, ..., x_{100}$. If we were to flip the coin 100 times and we see heads 55 times, we can say that $p = 55/100 = 0.55$.
+So we have 100 coin flips with results $x_1, x_2, ..., x_{100}$. 
+We see heads 55 times, we can say that $p = 55/100 = 0.55$. Pretty intuitive approach if we just forget that most coins are fair.
 But let's prove that. Let's prove $\hat{p} = \frac{\sum x_i}{n}$
 
 
-We begin with our probability mass function: $$f(x;p) = p^x(1-p)^{(1-x)}$$
+We begin with our probability mass function: $$f(x;p) = p^x(1-p)^{(n-x)}$$
 
 All of our observations ($x_1, x_2, ..., x_n$) are independent. So the joint probability mass function is:
 $$f(x_1, ..., x_n;p) = \prod_i f(x_i, p) = p^{\sum x_i}(1-p)^{(n-\sum x_i)}$$
