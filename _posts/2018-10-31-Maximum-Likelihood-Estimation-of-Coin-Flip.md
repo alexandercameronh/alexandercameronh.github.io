@@ -1,4 +1,6 @@
-# Maximum Likelihood Estimation of Coin Flip
+---
+title:  "Maximum Likelihood Estimation of Coin Flip"
+---
 
 Imagine that you're being asked to flip a coin *n* times and to estimate the probability of the coin being heads-side-up. Typically the probability would be 0.5 (50%), but in this scenario we don't know if it's a fair coin.
 That is, we don't know the probability, *p*.

@@ -1,4 +1,6 @@
-# Logistic Regression (with Gradient Ascent)
+---
+title:  "Logistic Regression (with Gradient Ascent)"
+---
 
 cool.
 
