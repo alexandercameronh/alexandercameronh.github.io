@@ -2,8 +2,6 @@
 title:  "Logistic Regression (with Gradient Ascent)"
 ---
 
-cool.
-
 Most of this information (especially notation) comes from Stanford's CS229 lecture notes and the rest comes from Bishop's "Pattern Recognition and Machine Learning". If I skip some explanation on parts, such as maximum likelihood, you can refer to one of those resources.
 
 At its core, logistic regression is a binary classifer. In the past, you've most likely seen regression models of the most simple case where $h(x) = \beta^TX + \beta_0$ and the model output is a *real number*. In classification problems, however, we wish to predict discrete class labels. Actually, the model output is a probability of a categorical outcome (model output value lies in [0,1]). To do this, we use a generalization of the model in which we transform the linear function of $\beta$ using a non-linear function $f(\cdot)$. In machine learning, this is called an *activation function*. 
