@@ -4,9 +4,10 @@ permalink: /about/
 
 ---
 
-My name is Alexander. I currently work at [CRAVE Metrics](http://www.cravemetrics.io). We're a small early-stage startup focusing on marketing analytics.
+My name is Alexander. 
+I am a data scientist at [MOSAIC](http://www.joinmosaic.com), working toward 100% clean energy for all. 
 
-Before CRAVE, I worked on a small team at [Loop AI Labs](http://www.loop.ai) building neural networks for computer vision and NLP products.
+Previously doing marketing analytics @ [CRAVE Metrics](http://www.cravemetrics.io) and building neural networks @ [Loop AI Labs](http://www.loop.ai).
 
 Outside of work I like cooking, road cycling, and spending time with my SO.
 
