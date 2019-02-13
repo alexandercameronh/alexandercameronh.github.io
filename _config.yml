@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "the regularization diaries"
 title_separator          : "-"
 name                     : "alexander hughes"
-description              : "a place to host my thoughts"
+description              : "math, bikes, food"
 url                      : "https://alexandercameronh.github.io" ## the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Alexander Hughes"
   avatar           : "/assets/images/profile_shot.jpeg"
-  bio              : "Data Scientist at CRAVE Metrics"
+  bio              : "Data Scientist at MOSAIC"
   location         : "San Francisco, Calif."
   email            : "alexandercameronh@gmail.com"
   links:
