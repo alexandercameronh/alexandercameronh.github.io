@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 My name is Alexander. 
-I am a data scientist at [MOSAIC](http://www.joinmosaic.com), working toward 100% clean energy for all. 
+I am a data scientist at [MOSAIC](http://www.joinmosaic.com), a residential solar financing company. 
 
 Previously doing marketing analytics @ [CRAVE Metrics](http://www.cravemetrics.io) and building neural networks @ [Loop AI Labs](http://www.loop.ai).
 
