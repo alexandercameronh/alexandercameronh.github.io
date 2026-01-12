@@ -5,14 +5,14 @@ permalink: /about/
 ---
 
 My name is Alexander. 
-I am a data scientist at [MOSAIC](http://www.joinmosaic.com), a residential solar financing company. 
 
-Previously doing marketing analytics @ [CRAVE Metrics](http://www.cravemetrics.io) and building neural networks @ [Loop AI Labs](http://www.loop.ai).
+I am a data scientist at [Mercury](http://www.mercury.com), a fintech company that provides modern banking solutions for everyday folks and businesses.
 
-Outside of work I like cooking, road cycling, and spending time with my SO.
+I enjoy solving challenging technical problems with pragmatic, iterative solutions.
 
-Here's a picture of us from a trip to Italy in September 2018.
+Things outside of work that I'm slightly-above-average at:
+- road and trail running
 
-This is in the town of Varenna.
-
-![como](../assets/images/como.jpg)
+Things I'm below average at:
+- chess (rapid, even worse at Blitz)
+- poker (texas hold 'em)
