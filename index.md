@@ -12,6 +12,6 @@ I enjoy solving challenging technical problems with pragmatic, iterative solutio
 Things outside of work that I'm slightly-above-average at:
 - road and trail running
 
-Things I'm below average at:
+Things I'm below average at, but deliberately trying to get better:
 - chess (rapid, even worse at Blitz)
 - poker (texas hold 'em)
