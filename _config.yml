@@ -106,13 +106,7 @@ author:
   bio              : "Data Scientist at Mercury"
   location         : "San Francisco, Calif."
   email            : "alexandercameronh@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:alexandercameronh@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/hughesac"
+  linkedin         : "hughesac"
 
 # Site Footer
 footer:
