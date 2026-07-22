@@ -1,11 +1,12 @@
 ---
-title:  "Linear Regression From Scratch"
+title: "Linear Regression From Scratch"
+math: true
 ---
 
 Linear regression (single variable) begins with this:
 - We have a feature variable (X) and a target variable (y) that have a linear relationship.
 
-![../assets/images/linear_relationship.png](../assets/images/linear_relationship.png)
+![Linear relationship between X and y](/assets/images/linear_relationship.png)
 [https://statistics.laerd.com/spss-tutorials/linear-regression-using-spss-statistics.php]
 
 - Imagine the dataset is the transaction history of a freelance developer. Your bread and butter is machine learning, not freelance web dev, so you just want to pay someone to get the job done.

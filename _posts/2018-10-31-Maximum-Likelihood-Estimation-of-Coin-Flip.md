@@ -1,5 +1,6 @@
 ---
-title:  "Maximum Likelihood Estimation of Coin Flip"
+title: "Maximum Likelihood Estimation of Coin Flip"
+math: true
 ---
 
 Imagine that you're being asked to flip a coin *n* times and to estimate the probability of the coin being heads-side-up. Typically the probability would be 0.5 (50%), but in this scenario we don't know if it's a fair coin.
@@ -29,7 +30,7 @@ $$\mathcal{L}(p) = p^{\sum x_i}(1-p)^{(n-\sum x_i)}$$
 
 We want to maximize this function. We want to find $p$ such that we maximize the likelihood of seeing the given observations.
 
-[Finding a maximum](http://clas.sa.ucsb.edu/staff/lee/Max%20and%20Min's.htm) of a function typically involves finding the derivative and setting it to zero, yes?
+[Finding a maximum](https://clas.sa.ucsb.edu/staff/lee/Max%20and%20Min's.htm) of a function typically involves finding the derivative and setting it to zero, yes?
 
 Taking the derivative of $\mathcal{L}$ with respect to $p$ is not straightforward.
 To make things easier, we take the derivative of the natural log of $\mathcal{L}$. This is a common trick -- the natural log function is a monotonically increasing function so the

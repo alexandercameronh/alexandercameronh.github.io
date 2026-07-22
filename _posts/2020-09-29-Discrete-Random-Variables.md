@@ -1,5 +1,6 @@
 ---
-title:  "Discrete Random Variables"
+title: "Discrete Random Variables"
+math: true
 ---
 
 ## Binomial Random Variable:
@@ -90,4 +91,4 @@ def plot_pmf(lam):
 plot_pmf(2.5)
 ```
 
-![../assets/images/poisson_pmf.png](../assets/images/poisson_pmf.png)
+![Poisson pmf with lambda = 2.5](/assets/images/poisson_pmf.png)

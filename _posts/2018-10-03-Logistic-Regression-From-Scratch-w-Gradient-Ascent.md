@@ -1,5 +1,6 @@
 ---
-title:  "Logistic Regression (with Gradient Ascent)"
+title: "Logistic Regression (with Gradient Ascent)"
+math: true
 ---
 
 Most of this information (especially notation) comes from Stanford's CS229 lecture notes and the rest comes from Bishop's "Pattern Recognition and Machine Learning". If I skip some explanation on parts, such as maximum likelihood, you can refer to one of those resources.
@@ -14,7 +15,7 @@ How do we force our outputs to be within that 0 to 1 range? With the sigmoid fun
 
 Sigmoid function: $g(x) = \frac{1}{1+e^{-x}}$, with the curve:
 
-![../assets/images/sigmoid.png](../assets/images/sigmoid.png)
+![Sigmoid curve](/assets/images/sigmoid.png)
 
 Technically, our hypothesis equation should then be:
 
