@@ -14,10 +14,10 @@ timezone: America/Los_Angeles
 
 title: the regularization diaries
 
-tagline: math, bikes, food
+tagline: machine learning, running
 
 description: >-
-  Alexander Hughes' personal site — notes on math, statistics, and life.
+  Alexander Hughes' personal site — notes on math, statistics, running, and life.
 
 # Fill in the protocol & hostname for your site.
 url: "https://ach.dev"
